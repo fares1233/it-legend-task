@@ -24,7 +24,7 @@ export default function Comments() {
                 Comments
             </h2>
             <div className="flex flex-col divide-y divide-border mt-4">
-                {comments.map((comment) => (
+                {comments?.map((comment) => (
                     <CommentRow key={comment.id} comment={comment} />
                 ))}
             </div>
