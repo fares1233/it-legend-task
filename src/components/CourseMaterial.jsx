@@ -41,13 +41,17 @@ export default function CourseMaterial() {
                 Course Materials
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[60px] py-4 px-8 shadow-card">
-                {materials?.map((material, index) => (
-                    <MaterialRow
-                        key={index}
-                        material={material}
-                    />
-                ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 max-[1030px]:gap-5 min-[1030px]:gap-35 py-4 px-8 shadow-card">
+                <div className="flex flex-col divide-y divide-border">
+                    {materials?.map((material, index) => (
+                        <MaterialRow key={`left-${index}`} material={material} />
+                    ))}
+                </div>
+                <div className="hidden md:flex flex-col divide-y divide-border">
+                    {materials?.map((material, index) => (
+                        <MaterialRow key={`right-${index}`} material={material} />
+                    ))}
+                </div>
             </div>
         </section>
     );
