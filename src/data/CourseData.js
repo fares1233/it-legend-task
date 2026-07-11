@@ -1,0 +1,170 @@
+const courseData = {
+    overallProgressPercent: 63,
+
+    weeks: [
+        {
+            id: 1,
+            weekTitle: "Week 1–4",
+            weekSubtitle:
+                "Advanced story telling techniques for writers: Personas, Characters & Plots",
+            isCurrentWeek: true,
+            weekProgressPercent: 100,
+            lessons: [
+                {
+                    id: 101,
+                    title: "Introduction",
+                    type: "video",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 102,
+                    title: "Course Overview",
+                    type: "video",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 103,
+                    title: "Course Overview",
+                    type: "quiz",
+                    questions: "0 QUESTION",
+                    duration: "10 MINUTES",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 104,
+                    title: "Course Exercise / Reference Files",
+                    type: "file",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 105,
+                    title: "Code Editor Installation (Optional if you have one)",
+                    type: "file",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 106,
+                    title: "Embedding PHP in HTML",
+                    type: "video",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+            ],
+        },
+        {
+            id: 2,
+            weekTitle: "Week 5–8",
+            weekSubtitle:
+                "Advanced story telling techniques for writers: Personas, Characters & Plots",
+            isCurrentWeek: true,
+            weekProgressPercent: 33,
+            lessons: [
+                {
+                    id: 201,
+                    title: "Defining Functions",
+                    type: "video",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 202,
+                    title: "Function Parameters",
+                    type: "video",
+                    isLocked: false,
+                    isCompleted: true,
+                },
+                {
+                    id: 203,
+                    title: "Return Values From Functions",
+                    type: "quiz",
+                    questions: "2 QUESTION",
+                    duration: "15 MINUTES",
+                    isLocked: false,
+                    isCompleted: false,
+                },
+                {
+                    id: 204,
+                    title: "Global Variable and Scope",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 205,
+                    title: "Newer Way of creating a Constant",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 206,
+                    title: "Constants",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+            ],
+        },
+        {
+            id: 3,
+            weekTitle: "Week 9–12",
+            weekSubtitle:
+                "Advanced story telling techniques for writers: Personas, Characters & Plots",
+            isCurrentWeek: false,
+            weekProgressPercent: 0,
+            lessons: [
+                {
+                    id: 301,
+                    title: "Defining Functions",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 302,
+                    title: "Function Parameters",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 303,
+                    title: "Return Values From Functions",
+                    type: "quiz",
+                    questions: "2 QUESTION",
+                    duration: "15 MINUTES",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 304,
+                    title: "Global Variable and Scope",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 305,
+                    title: "Newer Way of creating a Constant",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+                {
+                    id: 306,
+                    title: "Constants",
+                    type: "video",
+                    isLocked: true,
+                    isCompleted: false,
+                },
+            ],
+        },
+    ],
+};
+
+export default courseData;

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "League Spartan", system-ui, "Segoe UI", Roboto, sans-serif;
+    --font-heading: "League Spartan", system-ui, "Segoe UI", Roboto, sans-serif;
+    --font-mono: ui-monospace, Consolas, monospace;
+
+    --color-primary: #000000;
+    --color-secondary: #606060;
+    --color-ternary: #808080;
+    /* --color-secondary: #6c6c6c; */
+    --color-nav: #f5f9fa;
+    --color-btn: #41b69d;
+    --color-border: #e5e5e5;
+    --color-background: #ffffff;
+    --color-icons: #808080;
+    --color-question-bg: #f2faf8;
+    --color-question-text: #41b6b7;
+    --color-time-bg: #fdf2f4;
+    --color-time-text: #e54860;
+
+    --shadow-card: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+:root {
+    --plyr-color-main: #ffffff;
+    --plyr-video-control-color-hover: #000000;
+}
+
+/* Custom Overlaid Big Play Button */
+.plyr__control--overlaid {
+    background: #ffffff !important;
+    border-radius: 50% !important;
+    width: 84px !important;
+    height: 84px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Target the SVG inside the big play button */
+.plyr__control--overlaid svg {
+    color: #e54860 !important;
+    fill: #e54860 !important;
+    width: 36px !important;
+    height: 36px !important;
+    margin-left: 6px !important; /* Optical centering for the triangle */
+}
+
+/* Add a transparent black layer over the video poster */
+.plyr__poster::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* 40% black overlay */
+    z-index: 1;
+}
