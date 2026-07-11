@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProgressBar({ progress = 63 }) {
     return (
         <div className="w-full bg-white py-15">

@@ -20,7 +20,7 @@ export default function Comments() {
 
     return (
         <section id="comment-section" className="scroll-mt-[320px] md:scroll-mt-0">
-            <h2 className="font-medium text-4xl mt-12 mb-6 text-primary">
+            <h2 className="font-medium text-2xl md:text-4xl mt-12 mb-6 text-primary">
                 Comments
             </h2>
             <div className="flex flex-col divide-y divide-border mt-4">

@@ -52,7 +52,7 @@ export default function CourseMaterial() {
 
     return (
         <section className="text-secondary">
-            <h2 className="font-medium text-4xl mb-6 text-primary ">
+            <h2 className="font-medium text-2xl md:text-4xl mb-6 text-primary">
                 Course Materials
             </h2>
 

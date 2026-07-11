@@ -42,7 +42,6 @@ export default function BaseModal({
                         
                         {headerContent}
                         
-                        {/* Spacer to ensure the header content remains centered */}
                         <div className="w-5"></div>
                     </div>
                 )}

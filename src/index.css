@@ -8,7 +8,6 @@
     --color-primary: #000000;
     --color-secondary: #606060;
     --color-ternary: #808080;
-    /* --color-secondary: #6c6c6c; */
     --color-nav: #f5f9fa;
     --color-btn: #41b69d;
     --color-border: #e5e5e5;
@@ -27,7 +26,6 @@
     --plyr-video-control-color-hover: #000000;
 }
 
-/* Custom Overlaid Big Play Button */
 .plyr__control--overlaid {
     background: #ffffff !important;
     border-radius: 50% !important;
@@ -40,20 +38,18 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
 }
 
-/* Target the SVG inside the big play button */
 .plyr__control--overlaid svg {
     color: #e54860 !important;
     fill: #e54860 !important;
     width: 36px !important;
     height: 36px !important;
-    margin-left: 6px !important; /* Optical centering for the triangle */
+    margin-left: 6px !important; 
 }
 
-/* Add a transparent black layer over the video poster */
 .plyr__poster::before {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* 40% black overlay */
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
