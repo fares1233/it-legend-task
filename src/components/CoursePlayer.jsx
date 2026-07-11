@@ -56,7 +56,7 @@ export default function CoursePlayer({ isWide, setIsWide }) {
             type: "video",
             sources: [
                 {
-                    src: "/it-legend-task.mp4",
+                    src: "/it-legend-task-1.mp4",
                     type: "video/mp4",
                 },
             ],
@@ -135,7 +135,7 @@ export default function CoursePlayer({ isWide, setIsWide }) {
                 className={`relative group
                 ${
                     isWide
-                        ? "w-full aspect-[8/3] bg-black flex justify-center rounded-xl overflow-hidden shadow-xl"
+                        ? "w-full aspect-8/3 bg-black flex justify-center rounded-xl overflow-hidden shadow-xl"
                         : "w-full aspect-video rounded-md overflow-hidden"
                 }
                 `}
